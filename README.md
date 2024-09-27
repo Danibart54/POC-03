@@ -12,11 +12,11 @@ Com o media query, podemos mudar a forma com que a impressoara ve a pagina. Melh
 
 Nossa pagina normalmente ==>
 
-<img src="imagens/foto1.PNG" width="500px" height="300px">
+<img src="foto1.PNG" width="500px" height="300px">
 
 Com nossa pagina, na hora da impressão o usuario irá gastar muita tinta com este fundo vermelho. Por isso, usamos o @media print para facilitarmos para o usuario.
 
-<img src="imagens/foto2.PNG">
+<img src="foto2.PNG">
 
 Agora a página esta com fundo branco e sem imagens.
 
@@ -40,7 +40,7 @@ Com o media query, podemos mudar a pagina web para cada dispositivo tablet, smar
 
 Para smartphones a pagina fica assim ==>
 
-<img src="imagens/foto3.PNG">
+<img src="foto3.PNG">
 
 codigo:
 ```css
@@ -62,7 +62,7 @@ codigo:
 
 Para tablets a pagina fica assim ==>
 
-<img src="imagens/foto4.png">
+<img src="foto4.png">
 
 codigo: 
 ```css
@@ -84,7 +84,7 @@ codigo:
 
 Para desktop a pagina fica assim ==>
 
-<img src="imagens/foto5.png">
+<img src="foto5.png">
 
 codigo: 
 ```css
@@ -107,7 +107,7 @@ codigo:
 
 A media query orientation: landscape é usada no CSS para aplicar estilos específicos quando o dispositivo estiver em modo paisagem, ou seja, com a tela orientada horizontalmente, onde a largura é maior que a altura.
 
-<img src="imagens/foto3.PNG">
+<img src="foto3.PNG">
 
 codigo:
 ```css
@@ -126,7 +126,7 @@ A media query orientation: portrait é usada para aplicar estilos quando o dispo
 
 Mudança no bloco de roxo para amarelo.
 
-<img src="imagens/foto6.PNG">
+<img src="foto6.PNG">
 
 
 codigo:
