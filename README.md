@@ -10,3 +10,6 @@ Media Queries no CSS são uma técnica que permite aplicar estilos específicos 
 
 Com o media query, podemos mudar a forma com que a impressoara ve a pagina. Melhorando na hora da impressão e ajudando na salva de tinta.
 
+Nossa pagina normalmente ==>
+
+<img src="foto1.png">
