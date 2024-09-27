@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #ed0808;
+}
+
+.bloco {
+    
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para dispositivos móveis (até 600px) onde vai mudar a cor do fundo para rosa e dimunuir tamanho da fonte  */
+@media (max-width: 600px) {
+    body {
+        background-color: #009420;
+    }
+    img {
+        height: 300px;
+        width: 400px;
+    }
+    .bloco {
+        max-width: 90%; 
+        padding: 15px; 
+    }
+}
+
+/* Estilos para tablets (entre 601px e 1024px) onde vai mudar cor do fundo para azul dimunuir tamanho da fonte e tamanho da imagem  */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: #0aa2fa;
+    }
+    img {
+        height: 300px;
+        width: 400px;
+    }
+    .bloco {
+        max-width: 550px;
+        padding: 15px;
+    }
+}
+
+/* Estilos para desktops (acima de 1024px) padrão onde mantem a cor vermlha e tamanho mantido como padrão */
+@media (min-width: 1025px) {
+    body {
+        background-color: #f50505;
+    }
+    img {
+        height: 300px;
+        width: 400px;
+    }
+}
+
+/* Estilos para orientação portrait para orientação vertical (mais alta que larga) ,como uso de um celular em pé */
+@media (orientation: portrait) {
+    .bloco {
+        background-color: #8646fc;
+    }/*Portrait (ou retrato) é quando a altura da tela (lado vertical) é maior que a largura (lado horizontal).*/
+}
+
+/* Estilos para orientação landscape para orientação horizontal (mais larga que alta), como uso do celular deitado  */
+@media (orientation: landscape) {
+    .bloco {
+        background-color: #cef542;
+    }/*Landscape (ou paisagem) é quando a largura da tela (lado horizontal) é maior que a altura (lado vertical) */
+}
+
+/* Estilos para print (tudo preto) , quando for tirar uma impressão da pagina , ela vai ficar toda preta e letras em branco para imprimir  */
+@media print {
+    .bloco {
+        background-color: black;
+        color: white;
+    }
+    img {
+        display: none;
+    }
+}
